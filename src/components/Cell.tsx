@@ -6,7 +6,7 @@ interface CellProps {
     children: ReactNode;
     className?: string;
     key: string;
-    onClick?: () => void;
+    onClick?: (event?: React.MouseEvent) => void;
     rowIndex: number;
     renderAs: RenderAsEnum;
 }
